@@ -6,10 +6,13 @@
 //  Copyright © 2016 Miles Necker. All rights reserved.
 //
 
-#include <iostream>
+#include "mainMenu.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+class mainMenu;
+
+int main(int argc, char** argv) {
+    new mainMenu();
     return 0;
 }

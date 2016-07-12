@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C73E6B901D1209B3005E6E92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C73E6B8F1D1209B3005E6E92 /* main.cpp */; };
+		C77BEF571D120AA800E297E1 /* arrayBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C77BEF551D120AA800E297E1 /* arrayBuilder.cpp */; };
+		C77BEF5A1D120B2400E297E1 /* stringConvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C77BEF581D120B2400E297E1 /* stringConvert.cpp */; };
+		C77BEF5D1D120C6E00E297E1 /* buildFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C77BEF5B1D120C6E00E297E1 /* buildFile.cpp */; };
+		C77BEF611D12413100E297E1 /* mainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C77BEF5F1D12413100E297E1 /* mainMenu.cpp */; };
+		C7929A851D1DD3AF007D1C11 /* fileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7929A831D1DD3AF007D1C11 /* fileManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,18 @@
 /* Begin PBXFileReference section */
 		C73E6B8C1D1209B3005E6E92 /* USGS Streamflow Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "USGS Streamflow Search"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73E6B8F1D1209B3005E6E92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C77BEF551D120AA800E297E1 /* arrayBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arrayBuilder.cpp; sourceTree = "<group>"; };
+		C77BEF561D120AA800E297E1 /* arrayBuilder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = arrayBuilder.hpp; sourceTree = "<group>"; };
+		C77BEF581D120B2400E297E1 /* stringConvert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringConvert.cpp; sourceTree = "<group>"; };
+		C77BEF591D120B2400E297E1 /* stringConvert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringConvert.hpp; sourceTree = "<group>"; };
+		C77BEF5B1D120C6E00E297E1 /* buildFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buildFile.cpp; sourceTree = "<group>"; };
+		C77BEF5C1D120C6E00E297E1 /* buildFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = buildFile.hpp; sourceTree = "<group>"; };
+		C77BEF5F1D12413100E297E1 /* mainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainMenu.cpp; sourceTree = "<group>"; };
+		C77BEF601D12413100E297E1 /* mainMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mainMenu.hpp; sourceTree = "<group>"; };
+		C7929A831D1DD3AF007D1C11 /* fileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileManager.cpp; sourceTree = "<group>"; };
+		C7929A841D1DD3AF007D1C11 /* fileManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fileManager.hpp; sourceTree = "<group>"; };
+		C7B73C5E1D1605EF00969D0E /* fl.cfs */ = {isa = PBXFileReference; lastKnownFileType = text; path = fl.cfs; sourceTree = "<group>"; };
+		C7F7805E1D1359D500009E13 /* USGScommadata.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = USGScommadata.csv; path = "../../creek modeling/USGScommadata.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,18 @@
 			isa = PBXGroup;
 			children = (
 				C73E6B8F1D1209B3005E6E92 /* main.cpp */,
+				C77BEF551D120AA800E297E1 /* arrayBuilder.cpp */,
+				C77BEF561D120AA800E297E1 /* arrayBuilder.hpp */,
+				C77BEF581D120B2400E297E1 /* stringConvert.cpp */,
+				C77BEF591D120B2400E297E1 /* stringConvert.hpp */,
+				C77BEF5B1D120C6E00E297E1 /* buildFile.cpp */,
+				C77BEF5C1D120C6E00E297E1 /* buildFile.hpp */,
+				C7F7805E1D1359D500009E13 /* USGScommadata.csv */,
+				C7B73C5E1D1605EF00969D0E /* fl.cfs */,
+				C77BEF5F1D12413100E297E1 /* mainMenu.cpp */,
+				C77BEF601D12413100E297E1 /* mainMenu.hpp */,
+				C7929A831D1DD3AF007D1C11 /* fileManager.cpp */,
+				C7929A841D1DD3AF007D1C11 /* fileManager.hpp */,
 			);
 			path = "USGS Streamflow Search";
 			sourceTree = "<group>";
@@ -118,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77BEF611D12413100E297E1 /* mainMenu.cpp in Sources */,
 				C73E6B901D1209B3005E6E92 /* main.cpp in Sources */,
+				C77BEF5A1D120B2400E297E1 /* stringConvert.cpp in Sources */,
+				C7929A851D1DD3AF007D1C11 /* fileManager.cpp in Sources */,
+				C77BEF5D1D120C6E00E297E1 /* buildFile.cpp in Sources */,
+				C77BEF571D120AA800E297E1 /* arrayBuilder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +273,7 @@
 				C73E6B951D1209B3005E6E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
